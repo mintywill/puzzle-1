@@ -8,11 +8,14 @@ if (getColor == "pink") {
   down
   down
   down
-} if (getColor == "pink") {
+} 
+if (getColor == "pink") {
   left
 } else {
   right
-} if (firstColorSeen == "pink") {
+} 
+if (firstColorSeen == "pink") {
   up
 } else {
   down
+} 
