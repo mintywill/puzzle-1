@@ -1,0 +1,18 @@
+right
+var firstColorSeen = getColor
+if (getColor == "pink") {
+  up
+  up
+  up
+} else {
+  down
+  down
+  down
+} if (getColor == "pink") {
+  left
+} else {
+  right
+} if (firstColorSeen == "pink") {
+  up
+} else {
+  down
