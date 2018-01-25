@@ -1,0 +1,14 @@
+function CollectColor {
+right
+right
+if (getColor == "blue") {
+  down
+} else {
+  up
+}
+}
+CollectColor
+CollectColor
+right
+right
+right
