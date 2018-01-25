@@ -1,0 +1,14 @@
+function Loop {
+while (getColor != "pink") {
+  down
+} else {
+  right
+} 
+while (getColor != "pink") {
+  down
+} else {
+  right
+} 
+right
+right
+Loop
