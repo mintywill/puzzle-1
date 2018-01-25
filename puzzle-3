@@ -1,12 +1,12 @@
 down
 down
-getColor
+var firstColorSeen = getColor
 down
 down
 down
 right 
 right
-setColor
+setColor(firstColorSeen)
 right
 right
 up
