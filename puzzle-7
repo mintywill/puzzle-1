@@ -7,7 +7,7 @@ while (getColor != "pink") {
 while (getColor != "pink") {
   down
 } else {
-  right
+  up
 } 
 right
 right
