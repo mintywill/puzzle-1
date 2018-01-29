@@ -1,21 +1,21 @@
-right
-var firstColorSeen = getColor
-if (getColor == "pink") {
-  up
-  up
-  up
+right();
+var firstColorSeen = getColor()
+if (getColor() == "red") {
+  up();
+  up();
+  up();
 } else {
-  down
-  down
-  down
+  down();
+  down();
+  down();
 } 
-if (getColor == "pink") {
-  left
+if (getColor() == "red") {
+  left();
 } else {
-  right
+  right();
 } 
-if (firstColorSeen == "pink") {
-  up
+if (firstColorSeen == "red") {
+  up();
 } else {
-  down
+  down();
 } 
