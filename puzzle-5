@@ -1,14 +1,15 @@
-function CollectColor {
-right
-right
-if (getColor == "blue") {
-  down
+function CollectColor() {
+right(); 
+right(); 
+if (getColor() == "blue") {
+  down(); 
 } else {
-  up
+  up(); 
 }
 }
-CollectColor
-CollectColor
-right
-right
-right
+CollectColor(); 
+CollectColor(); 
+CollectColor(); 
+right(); 
+right(); 
+right(); 
