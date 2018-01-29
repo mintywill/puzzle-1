@@ -1,20 +1,24 @@
 var steps = 0
-while (steps < 9) {
-  down
+while (steps < 60) {
+  setColor("red")
+  down();
   steps = steps + 1
 }
 var steps = 0
-while (steps < 9) {
-  right
+while (steps < 60) {
+  setColor("red")
+  right();
   steps = steps + 1
 }
 var steps = 0
-while (steps < 9) {
-  up
+while (steps < 60) {
+  setColor("red")
+  up();
   steps = steps + 1
 }
 var steps = 0
-while (steps < 9) {
-  left
+while (steps < 60) {
+  setColor("red")
+  left();
   steps = steps + 1
 }
