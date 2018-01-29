@@ -1,13 +1,16 @@
-down
-down
-down
-down
-function Collectcolor {
-right
-var firstColorSeen = getColor
-down
-setColor(firstColorSeen)
-right
-right
+down();
+down();
+down();
+down();
+down();
+function Collectcolor() {
+  right();
+  up();
+  var firstColorSeen = getColor();
+  down();
+  setColor(firstColorSeen);
+  right();
+  right();
 }
-Collectcolor
+Collectcolor();
+Collectcolor();
