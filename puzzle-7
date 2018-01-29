@@ -1,14 +1,25 @@
-function Loop {
-while (getColor != "pink") {
-  down
-} else {
-  right
-} 
-while (getColor != "pink") {
-  down
-} else {
-  up
-} 
-right
-right
-Loop
+function Loop() {
+while (getColor() != "red") {
+  down();
+}
+}
+Loop();
+right();
+right();
+function Loob() {
+while (getColor() != "red") {
+  up();
+}
+}
+Loob();
+right();
+right();
+Loop();
+right();
+right();
+Loob();
+right();
+right();
+Loop();
+right();
+right();
